@@ -4,8 +4,8 @@
   "description": "Independent journalism from Kenya and East Africa.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f7f4ed",
-  "theme_color": "#c8463b",
+  "background_color": "#f5f1e8",
+  "theme_color": "#17261f",
   "icons": [
     {
       "src": "/favicon.svg",
