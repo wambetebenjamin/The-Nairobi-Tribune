@@ -7,6 +7,7 @@ import { getSiteUrl } from "@/lib/site";
 import { StoryCard } from "@/components/StoryCard";
 import { ShareActions } from "@/components/ShareActions";
 import { SectionHeading } from "@/components/SectionHeading";
+import { RegionGlobe } from "@/components/RegionGlobe";
 
 type ArticlePageProps = {
   params: Promise<{ slug: string }>;
@@ -85,6 +86,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
       <article>
         <header className="article-header">
+          <div className="article-header__illustration" aria-hidden="true"><RegionGlobe /></div>
           <Link className="category-label" href={`/section/${categorySlug(article.category)}`}>{article.category}</Link>
           <p className="article-header__location">{article.location}</p>
           <h1>{article.title}</h1>

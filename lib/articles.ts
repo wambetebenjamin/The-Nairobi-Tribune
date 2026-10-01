@@ -182,7 +182,228 @@ export const articles: Article[] = [
       "A reserve is not separate from the region around it. Its future depends on relationships between communities, visitors and the wider natural world.",
       "The most lasting view is one that keeps the whole landscape in focus."
     ]
+  },
+  {
+    slug: "the-city-begins-at-the-crossing",
+    category: "Politics",
+    location: "Nairobi, Kenya",
+    title: "The city begins at the crossing",
+    excerpt: "A city's public choices are easiest to understand at the corner where someone has to wait, walk or make room for a neighbour.",
+    author: "The Politics Desk",
+    publishedAt: "2026-09-25T09:20:00+03:00",
+    readTime: "5 min read",
+    image: "/images/nairobi-riders.jpg",
+    imageAlt: "Two delivery riders travelling through a Nairobi neighbourhood",
+    imageCredit: "Pexels",
+    imageSource: "https://www.pexels.com/photo/motorcycle-delivery-in-nairobi-street-scene-30661401/",
+    body: [
+      "Public life can feel abstract until it meets an ordinary journey. A crossing, a bus stop and a stretch of shade are small pieces of the city, but they are where many people experience public decisions first.",
+      "The most useful conversations about streets begin with the people who use them at different speeds. A delivery rider, a schoolchild and a market trader each notice something different about the same route.",
+      "That everyday knowledge is a resource. Bringing it into planning early can make a proposal easier to understand and the finished place more welcoming to the people it is meant to serve.",
+      "A city is not only the buildings it puts up. It is also the shared ground between them, and the choices that decide who can move through it with confidence."
+    ]
+  },
+  {
+    slug: "the-neighbourhood-in-the-plan",
+    category: "Politics",
+    location: "Nairobi, Kenya",
+    title: "Keep the neighbourhood in the plan",
+    excerpt: "Long-term civic thinking starts with the familiar places and everyday needs that can disappear from a drawing made at a distance.",
+    author: "The Editorial Desk",
+    publishedAt: "2026-09-24T13:10:00+03:00",
+    readTime: "4 min read",
+    image: "/images/nairobi-skyline.jpg",
+    imageAlt: "Nairobi's central skyline in the soft light of morning",
+    imageCredit: "Pexels",
+    imageSource: "https://www.pexels.com/photo/skyline-view-of-nairobi-cityscape-at-daytime-29069344/",
+    body: [
+      "A plan can make a city look wonderfully clear: lines connect, blocks take shape and the future appears neatly arranged. Life on the ground is less tidy, and that is exactly why local detail matters.",
+      "Neighbourhoods hold routines that rarely appear on a map. They include the short walk to a shop, the route children take home and the places where people pause to exchange news.",
+      "Good civic work makes space for those details instead of treating them as obstacles. It asks what is already working, who might be left out and how a new idea can strengthen the connections already there.",
+      "The city in a drawing is only a beginning. The city people recognise as their own is the one worth planning for."
+    ]
+  },
+  {
+    slug: "a-market-is-a-network",
+    category: "Business",
+    location: "Nairobi, Kenya",
+    title: "A market is more than a place to buy",
+    excerpt: "Behind every colourful stall is a web of trust, timing and small decisions that helps a neighbourhood do business.",
+    author: "The Business Desk",
+    publishedAt: "2026-09-24T08:45:00+03:00",
+    readTime: "4 min read",
+    image: "/images/nairobi-market.jpg",
+    imageAlt: "A colourful produce stall at a Nairobi street market",
+    imageCredit: "Marie Frank via Pexels",
+    imageSource: "https://www.pexels.com/photo/vibrant-street-market-in-nairobi-kenya-33730494/",
+    body: [
+      "A market is built from more than what is arranged on a table. It depends on people who know one another's habits, suppliers who arrive when they can and customers who return because a familiar face is part of the experience.",
+      "That network is easy to underestimate when business is described only in terms of scale. Small exchanges can carry their own kind of value: a recommendation, a remembered preference or a chance to try something new.",
+      "For a trader, presentation matters, but so does being present. Regular conversation helps a stall become a dependable part of the day rather than simply another stop along the way.",
+      "Look closely at a busy market and its economy comes into focus as a shared effort, renewed with every greeting and every careful choice."
+    ]
+  },
+  {
+    slug: "the-value-of-a-familiar-shop",
+    category: "Business",
+    location: "Nairobi, Kenya",
+    title: "The quiet value of a familiar shop",
+    excerpt: "A neighbourhood business earns its place through reliable service, local knowledge and a relationship measured one visit at a time.",
+    author: "The Business Desk",
+    publishedAt: "2026-09-23T11:15:00+03:00",
+    readTime: "3 min read",
+    image: "/images/nairobi-market.jpg",
+    imageAlt: "A colourful produce stall at a Nairobi street market",
+    imageCredit: "Marie Frank via Pexels",
+    imageSource: "https://www.pexels.com/photo/vibrant-street-market-in-nairobi-kenya-33730494/",
+    body: [
+      "The best-known shop on a street is not always the biggest. Sometimes it is the place where someone remembers how you take your tea, sets aside what you asked for or points you towards a better choice.",
+      "Those gestures are part of how trust is built. They take time, attention and a steady presence, qualities that do not always show up in a balance sheet but can shape how a business is valued by the people around it.",
+      "Local enterprise responds to a particular place. Its owners learn the rhythm of the block, notice what changes and adjust the way they serve the people who come through the door.",
+      "A familiar shop is both a business and a meeting point. Its strength is often found in the relationships it makes room for."
+    ]
+  },
+  {
+    slug: "the-coast-keeps-its-own-time",
+    category: "Culture",
+    location: "Mombasa, Kenya",
+    title: "The coast keeps its own time",
+    excerpt: "Morning light, salt air and a slow walk by the water reveal a coastal rhythm that asks visitors to pay attention.",
+    author: "The Culture Desk",
+    publishedAt: "2026-09-24T07:30:00+03:00",
+    readTime: "3 min read",
+    image: "/images/mombasa-sunrise.jpg",
+    imageAlt: "Two people walking along Mombasa beach at sunrise",
+    imageCredit: "Zebari Visuals on Pexels",
+    imageSource: "https://www.pexels.com/photo/mombasa-beach-silhouette-at-sunrise-37476352/",
+    body: [
+      "At the water's edge, the day seems to arrive in layers. The sky changes first, then the sea brightens and the familiar outline of the shore comes into view.",
+      "A coastline is never only a view. It is a place people work, meet, remember and return to, carrying the habits that make one stretch of shore feel different from another.",
+      "The pace of the morning invites a particular kind of attention. A walk becomes a chance to notice the sounds, the shifting colour and the many ways a shared landscape can hold personal meaning.",
+      "Culture often lives in these repeated gestures. The coast keeps time through them, one morning and one conversation at a time."
+    ]
+  },
+  {
+    slug: "the-small-rituals-that-make-a-city",
+    category: "Culture",
+    location: "Nairobi, Kenya",
+    title: "The small rituals that make a city",
+    excerpt: "Everyday greetings, shared tables and familiar routes turn a fast-moving capital into a place people recognise as home.",
+    author: "The Culture Desk",
+    publishedAt: "2026-09-22T10:00:00+03:00",
+    readTime: "4 min read",
+    image: "/images/nairobi-dusk.jpg",
+    imageAlt: "Nairobi's skyline glowing beneath a deep blue evening sky",
+    imageCredit: "Pexels",
+    imageSource: "https://www.pexels.com/photo/stunning-nairobi-skyline-at-dusk-29069329/",
+    body: [
+      "A city can be introduced by its skyline, but it is remembered through smaller things: the greeting exchanged at a gate, the usual seat on a commute and the place where friends agree to meet.",
+      "These rituals are rarely planned. They grow as people share space, adapt to change and find ways to make a large city feel close enough to belong to.",
+      "Nairobi's energy is visible in its movement, yet the pauses matter too. A familiar corner or a moment of conversation can make the city's scale feel more human.",
+      "Pay attention to the ordinary and a different portrait appears. It is a portrait made of habits, hospitality and the many ways people create a sense of home."
+    ]
+  },
+  {
+    slug: "a-coastline-of-many-conversations",
+    category: "East Africa",
+    location: "Zanzibar, Tanzania",
+    title: "A coastline of many conversations",
+    excerpt: "Along the Indian Ocean, boats, ports and neighbourhoods connect lives through work, memory and the movement of ideas.",
+    author: "The East Africa Desk",
+    publishedAt: "2026-09-23T08:20:00+03:00",
+    readTime: "5 min read",
+    image: "/images/zanzibar-dhow.jpg",
+    imageAlt: "A traditional fishing boat seen from above in the clear water near Zanzibar",
+    imageCredit: "Keegan Checks via Pexels",
+    imageSource: "https://www.pexels.com/photo/aerial-view-of-a-boat-on-the-sea-4844208/",
+    body: [
+      "The ocean can look like a boundary from land. For the people who know its routes, it is also a meeting place, carrying work, stories and ways of seeing from one shore to another.",
+      "A boat is part of that wider picture. Its shape holds practical knowledge: how to read the water, care for a sail and move safely through conditions that change from one day to the next.",
+      "Coastal life is connected by more than distance. Shared words, craft and memory travel with people, forming a conversation that has never belonged to a single port alone.",
+      "To look at the coast closely is to notice how much is happening between the horizon and the shore. The region's connections are lived, worked and renewed there."
+    ]
+  },
+  {
+    slug: "the-view-from-the-other-shore",
+    category: "East Africa",
+    location: "Zanzibar, Tanzania",
+    title: "The view from the other shore",
+    excerpt: "A regional story becomes richer when neighbouring places are seen not as a backdrop, but as voices in the same conversation.",
+    author: "The East Africa Desk",
+    publishedAt: "2026-09-21T09:10:00+03:00",
+    readTime: "4 min read",
+    image: "/images/zanzibar-dhow.jpg",
+    imageAlt: "A traditional fishing boat seen from above in the clear water near Zanzibar",
+    imageCredit: "Keegan Checks via Pexels",
+    imageSource: "https://www.pexels.com/photo/aerial-view-of-a-boat-on-the-sea-4844208/",
+    body: [
+      "It is tempting to describe a region from the centre of one city. The view changes when attention shifts to a neighbouring shore and the people who understand its daily patterns best.",
+      "A regional perspective is not a single point of view. It is made from local experience, shared histories and the small exchanges that continue even when borders make the map look divided.",
+      "Listening across places helps a story hold more than one truth at once. It can make familiar questions feel different and reveal connections that a quick glance might miss.",
+      "The other shore is never simply distant. It is part of the region's ongoing conversation, with its own voice and its own way of seeing."
+    ]
+  },
+  {
+    slug: "follow-the-waterline",
+    category: "Environment",
+    location: "Nakuru County, Kenya",
+    title: "Follow the waterline through the grasslands",
+    excerpt: "Water shapes the routes wildlife takes and the questions communities ask about caring for a shared, changing landscape.",
+    author: "The Environment Desk",
+    publishedAt: "2026-09-23T15:40:00+03:00",
+    readTime: "5 min read",
+    image: "/images/maasai-elephants.jpg",
+    imageAlt: "An African elephant and calf moving through open grassland in Kenya",
+    imageCredit: "Pexels",
+    imageSource: "https://www.pexels.com/photo/elephants-walking-on-a-grass-field-6164790/",
+    body: [
+      "In open country, water is one of the quiet forces that organises a landscape. It draws animals along familiar routes and shapes the way people understand the land around them.",
+      "Following those routes can reveal where different needs meet. Conservation work is strongest when it includes people who live with the landscape and know how it changes through the seasons.",
+      "The picture is more complex than a single dramatic sighting. It includes access, patience and the practical choices that help wildlife and communities share space.",
+      "A waterline tells a story of connection. Paying attention to it is one way to see the grasslands as a living place, not simply a distant view."
+    ]
+  },
+  {
+    slug: "a-city-built-for-the-walk-between",
+    category: "Opinion",
+    location: "Nairobi, Kenya",
+    title: "Build a city for the walk between",
+    excerpt: "The quality of an urban journey is often decided by the short walk before the ride, the crossing and the place to wait.",
+    author: "The Opinion Desk",
+    publishedAt: "2026-09-22T15:20:00+03:00",
+    readTime: "4 min read",
+    image: "/images/nairobi-skyline.jpg",
+    imageAlt: "Nairobi's central skyline in the soft light of morning",
+    imageCredit: "Pexels",
+    imageSource: "https://www.pexels.com/photo/skyline-view-of-nairobi-cityscape-at-daytime-29069344/",
+    body: [
+      "A journey is often measured from the moment a vehicle moves. For the person making it, the experience begins much earlier: at the door, along the pavement and at the place where the next step is not obvious.",
+      "Those in-between moments deserve the same care as the headline infrastructure. A clear crossing, a comfortable place to wait and a continuous path can make the whole trip feel more possible.",
+      "Designing around walking is not a sentimental extra. It is a practical way to think about access, safety and the everyday dignity of moving through a city.",
+      "A better urban future will be judged not only by how far we travel, but by how thoughtful the walk between each part of the journey becomes."
+    ]
+  },
+  {
+    slug: "listening-is-part-of-the-infrastructure",
+    category: "Opinion",
+    location: "Nairobi, Kenya",
+    title: "Listening is part of the infrastructure",
+    excerpt: "Before a street changes, the people who use it every day already know where the pinch points and possibilities are.",
+    author: "The Opinion Desk",
+    publishedAt: "2026-09-20T12:40:00+03:00",
+    readTime: "4 min read",
+    image: "/images/nairobi-riders.jpg",
+    imageAlt: "Two delivery riders travelling through a Nairobi neighbourhood",
+    imageCredit: "Pexels",
+    imageSource: "https://www.pexels.com/photo/motorcycle-delivery-in-nairobi-street-scene-30661401/",
+    body: [
+      "The most valuable information about a street may come from the person who uses it every day. They know where a route narrows, when a crossing feels difficult and which small change would make a real difference.",
+      "Listening is sometimes treated as a step before the work begins. It should be part of the work itself: a way to notice what is happening, test an idea and learn from the people who live with the outcome.",
+      "No single conversation will answer every question. But a process that makes room for many voices is more likely to see the full shape of a place.",
+      "Infrastructure is made of materials and decisions. It is also made of trust, and trust starts when people can recognise their own experience in the choices being made."
+    ]
   }
+
 ];
 
 export const categories = ["Kenya", "Politics", "Business", "Culture", "East Africa", "Environment", "Opinion"];

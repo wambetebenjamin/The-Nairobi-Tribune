@@ -4,6 +4,7 @@ import { articles, categorySlug, formatArticleDate } from "@/lib/articles";
 import { StoryCard } from "@/components/StoryCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { NewsletterForm } from "@/components/NewsletterForm";
+import { RegionGlobe } from "@/components/RegionGlobe";
 
 const lead = articles[0];
 const selectedStories = [articles[1], articles[3], articles[4]];
@@ -18,11 +19,15 @@ export default function HomePage() {
       <div className="site-width">
         <section className="lead-section" aria-labelledby="lead-section-title">
           <div className="lead-section__topline">
-            <div>
-              <span className="eyebrow">The morning edition</span>
+            <div className="lead-section__headline">
+              <span className="eyebrow">The morning edition · Vol. 01</span>
               <h1 id="lead-section-title">The stories behind the headlines.</h1>
             </div>
-            <p>Reporting on people, place and ideas across Kenya and East Africa.</p>
+            <p>
+              Reporting on people, place and ideas across Kenya and East Africa.
+              <span className="lead-section__promise">Read closely. See the whole picture.</span>
+            </p>
+            <div className="lead-section__illustration"><RegionGlobe /></div>
           </div>
 
           <div className="lead-grid">
