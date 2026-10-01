@@ -1,0 +1,17 @@
+{
+  "name": "The Nairobi Tribune",
+  "short_name": "Tribune",
+  "description": "Independent journalism from Kenya and East Africa.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f4ed",
+  "theme_color": "#c8463b",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
