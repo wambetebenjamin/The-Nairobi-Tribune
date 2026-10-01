@@ -19,7 +19,7 @@ export default function HomePage() {
         <section className="lead-section" aria-labelledby="lead-section-title">
           <div className="lead-section__topline">
             <div>
-              <span className="eyebrow">Thursday edition</span>
+              <span className="eyebrow">The morning edition</span>
               <h1 id="lead-section-title">The stories behind the headlines.</h1>
             </div>
             <p>Reporting on people, place and ideas across Kenya and East Africa.</p>
@@ -47,8 +47,7 @@ export default function HomePage() {
 
             <div className="lead-side">
               <div className="lead-side__heading">
-                <span className="eyebrow">Selected for you</span>
-                <span className="lead-side__rule" />
+                <span className="eyebrow">The editors' selection</span>
               </div>
               {selectedStories.map((article, index) => (
                 <article className="selected-story" key={article.slug}>
@@ -69,8 +68,8 @@ export default function HomePage() {
 
         <section className="latest-layout" aria-labelledby="latest-heading">
           <div className="latest-main">
-            <SectionHeading eyebrow="Across the newsroom" title="Latest stories" href="/search" linkLabel="Explore the archive" />
-            <div className="latest-list" id="latest-heading">
+            <SectionHeading eyebrow="Across the newsroom" title="Latest stories" href="/search" linkLabel="Explore the archive" id="latest-heading" />
+            <div className="latest-list">
               {latestStories.map((article) => <StoryCard article={article} variant="list" key={article.slug} />)}
             </div>
           </div>
@@ -93,8 +92,8 @@ export default function HomePage() {
         </section>
 
         <section className="story-band" aria-labelledby="kenya-heading">
-          <SectionHeading eyebrow="From the streets to the highlands" title="Kenya, up close" href="/section/kenya" linkLabel="More from Kenya" />
-          <div className="story-card-grid" id="kenya-heading">
+          <SectionHeading eyebrow="From the streets to the highlands" title="Kenya, up close" href="/section/kenya" linkLabel="More from Kenya" id="kenya-heading" />
+          <div className="story-card-grid">
             {kenyaStories.map((article) => <StoryCard article={article} key={article.slug} />)}
           </div>
         </section>

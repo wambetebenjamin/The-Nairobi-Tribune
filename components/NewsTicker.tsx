@@ -19,7 +19,6 @@ export function NewsTicker() {
             >
               <span className="ticker-item__category">{article.category}</span>
               <span>{article.title}</span>
-              <span className="ticker-item__separator" aria-hidden="true">✳</span>
             </Link>
           ))}
         </div>
