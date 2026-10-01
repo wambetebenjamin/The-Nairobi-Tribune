@@ -4809,3 +4809,60 @@ body > .site-footer {
     animation: none !important;
   }
 }
+
+/* A slow, cinematic orbit that stays behind every page */
+.site-atmosphere__globe {
+  position: absolute;
+  top: 16%;
+  left: 0;
+  z-index: 0;
+  opacity: 0.14;
+  filter: saturate(0.68);
+  mix-blend-mode: multiply;
+  transform: translate3d(-12vw, 0, 0);
+  animation: backdrop-globe-journey 72s linear infinite;
+  will-change: transform;
+}
+
+.site-atmosphere__globe .region-globe {
+  --globe-size: clamp(260px, 34vw, 470px);
+  filter: drop-shadow(0 32px 55px rgba(12, 30, 22, 0.2));
+}
+
+.site-atmosphere__globe .region-globe__coordinate,
+.site-atmosphere__globe .region-globe__caption {
+  display: none;
+}
+
+:root[data-theme="dark"] .site-atmosphere__globe {
+  opacity: 0.12;
+  mix-blend-mode: screen;
+}
+
+@keyframes backdrop-globe-journey {
+  0% { transform: translate3d(-14vw, 2vh, 0) rotate(-12deg); }
+  50% { transform: translate3d(46vw, 9vh, 0) rotate(172deg); }
+  100% { transform: translate3d(108vw, -3vh, 0) rotate(352deg); }
+}
+
+@media (max-width: 760px) {
+  .site-atmosphere__globe {
+    top: 30%;
+    opacity: 0.09;
+  }
+
+  .site-atmosphere__globe .region-globe {
+    --globe-size: 280px;
+  }
+
+  :root[data-theme="dark"] .site-atmosphere__globe {
+    opacity: 0.08;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-atmosphere__globe {
+    animation: none !important;
+    transform: translate3d(30vw, 2vh, 0) !important;
+  }
+}

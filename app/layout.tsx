@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { SiteHeader } from "@/components/SiteHeader";
 import { NewsTicker } from "@/components/NewsTicker";
 import { SiteFooter } from "@/components/SiteFooter";
+import { RegionGlobe } from "@/components/RegionGlobe";
 import { formatEditionDate } from "@/lib/site";
 import "./globals.css";
 
@@ -44,7 +45,11 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" data-theme="light" suppressHydrationWarning>
       <body>
-        <div className="site-atmosphere" aria-hidden="true" />
+        <div className="site-atmosphere" aria-hidden="true">
+          <div className="site-atmosphere__globe">
+            <RegionGlobe className="region-globe--background" />
+          </div>
+        </div>
         <a className="skip-link" href="#main-content">Skip to content</a>
         <div id="top" />
         <SiteHeader editionDate={editionDate} />
